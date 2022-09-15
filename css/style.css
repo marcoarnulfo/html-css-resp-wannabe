@@ -136,6 +136,7 @@ img {
 }
 
 @media screen and (max-width:480px) {
+
     .row{
         flex-wrap: wrap;
         flex-direction: column;
@@ -149,6 +150,7 @@ img {
 
     h1{
         font-size: 3rem;
+        padding-top: 3rem;
     }
 
     .lessons h2{
@@ -174,16 +176,32 @@ img {
     }
 
     h2.text-center{
+        padding-top: 3rem;
         font-size: 3rem;
+    }
+
+    .container h2{
+        padding-top: 2rem;
     }
 
     h3{
         font-size: 2rem;
     }
 
-
     li{
         text-align: left;
         font-size: 1.3rem;
+    }
+
+    body{
+        background-color: #222222;
+    }
+
+    header, .lessons{
+        background-color: #232946;
+    }
+
+    .site-header {
+        margin-top: 0;
     }
 }
